@@ -1,97 +1,97 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
+	background-color: #d9dcd6;
 }
 
 header {
-    padding: 20px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+	padding: 20px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	background-color: #2a607c;
+	color: #ffffff;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+	display: inline-block;
+	font-size: 48px;
 }
 
 /* .seo was slightly darkened to increase contrast */
 header h1 .seo {
-    color: #c1c2c0;
+	color: #c1c2c0;
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 20px;
+	padding-top: 15px;
+	margin-right: 20px;
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 20px;
 }
 
 header nav ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+	display: inline-block;
+	margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+	height: 800px;
+	width: 100%;
+	margin-bottom: 25px;
+	background-image: url("../images/digital-marketing-meeting.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+	float: left;
+	margin-right: 25px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+	float: right;
+	margin-left: 25px;
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+	width: 75%;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #2589bd;
+	margin-right: 20px;
+	padding: 20px;
+	clear: both;
+	float: right;
+	width: 20%;
+	height: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-color: #2589bd;
 }
 
 /* Reduced class to ".benefit" and deleted the other ".benefit-*.*" styles, because they only differed in class name. */
 .benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
+	margin-bottom: 32px;
+	color: #ffffff;
 }
 
 /* ------------------remove the following comment section------------------------------ */
@@ -117,15 +117,15 @@ p {
 } */
 
 .benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 /* Reduced class to ".benefit img" and deleted the other ".benefit-*.* img" styles, because they only differed in class name. */
 .benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
 }
 
 /* ------------------remove the following comment section------------------------------ */
@@ -144,12 +144,12 @@ p {
 
 /* Reduced class to ".box" and deleted the other specialty box names and content, because they only differed in class name. */
 .box {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
 }
 
 /* ------------------remove the following comment section------------------------------ */
@@ -174,7 +174,7 @@ p {
 
 /* Reduced class to ".box img" and deleted the other "*.* img" styles, because they only differed in class name. */
 .box img {
-    max-height: 200px;
+	max-height: 200px;
 }
 
 /* ------------------remove the following comment section------------------------------ */
@@ -190,8 +190,8 @@ p {
 
 /* Reduced class to ".box h2" and deleted the other ".(class) h2" styles, because they only differed in class name. */
 .box h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+	margin-bottom: 20px;
+	font-size: 36px;
 }
 
 /* ------------------remove the following comment section------------------------------ */
@@ -207,13 +207,13 @@ p {
 } */
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    text-align: center;
+	padding: 30px;
+	clear: both;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	text-align: center;
 }
 
 footer h2 {
-    font-size: 20px;
+	font-size: 20px;
 }
