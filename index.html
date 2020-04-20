@@ -15,7 +15,7 @@
 <body>
 	<!-- This header contains internal navigational links. -->
 	<header>
-		<h1>Hori<span class="seo">seo</span>n</h1>
+		<h1>Hori<span>seo</span>n</h1>
 		<nav>
 			<ul>
 				<li>
@@ -30,9 +30,11 @@
 			</ul>
 		</nav>
 	</header>
-	<!-- div changed to figure with an alt added for img discription. Hero class maintained. -->
-	<figure class="hero" alt="People collaborating around desk."></figure>
-	<main class="content">
+	<!-- div changed to figure with an alt added for img discription. Hero class removed. -->
+	<figure alt="People collaborating around desk."></figure>
+
+	<!-- Removed class="content" and changed tag to <main> -->
+	<main>
 		<section id="search-engine-optimization" class="box">
 			<img src="./assets/images/search-engine-optimization.jpg" class="float-left"
 				alt="A laptop, coffee, notepad, and pencils arranged on pine desk." />
@@ -68,8 +70,8 @@
 			</p>
 		</section>
 	</main>
-	<!-- The <aside> tag is used for unnecessary information. -->
-	<aside class="benefits">
+	<!-- Removed class="benefits" from html and changed tag to <article> -->
+	<article>
 		<section class="benefit">
 			<h3>Lead Generation</h3>
 			<img src="./assets/images/lead-generation.png"
@@ -95,7 +97,7 @@
 				costs decrease, and you no longer need to advertise your page.
 			</p>
 		</section>
-	</aside>
+	</article>
 </body>
 <!-- This tag can be placed anywhere on the page, but personally, I prefer it down here. It usually contains copywrite, and creator info. -->
 <footer>
