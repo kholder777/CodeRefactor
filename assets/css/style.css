@@ -21,7 +21,7 @@ header h1 {
     font-size: 48px;
 }
 
-/* slightly darkened to increase contrast */
+/* .seo was slightly darkened to increase contrast */
 header h1 .seo {
     color: #c1c2c0;
 }
@@ -88,11 +88,13 @@ p {
     background-color: #2589bd;
 }
 
+/* Reduced class to ".benefit" and deleted the other ".benefit-*.*" styles, because they only differed in class name. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* ------------------remove the following comment section------------------------------ */
 /* Redundant information, able to be deleted.
 .benefit-brand {
 	margin-bottom: 32px;
@@ -119,12 +121,14 @@ p {
     text-align: center;
 }
 
+/* Reduced class to ".benefit img" and deleted the other ".benefit-*.* img" styles, because they only differed in class name. */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* ------------------remove the following comment section------------------------------ */
 /* Redundant information, able to be deleted.
 .benefit-brand img {
     display: block;
@@ -138,6 +142,7 @@ p {
     max-width: 150px;
 } */
 
+/* Reduced class to ".box" and deleted the other specialty box names and content, because they only differed in class name. */
 .box {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,6 +152,7 @@ p {
     color: #ffffff;
 }
 
+/* ------------------remove the following comment section------------------------------ */
 /* Redundant information, able to be deleted.
 .online-reputation-management {
 	margin-bottom: 20px;
@@ -166,10 +172,12 @@ p {
 	color: #ffffff;
 } */
 
+/* Reduced class to ".box img" and deleted the other "*.* img" styles, because they only differed in class name. */
 .box img {
     max-height: 200px;
 }
 
+/* ------------------remove the following comment section------------------------------ */
 /* Redundant information, able to be deleted.
 .online-reputation-management img {
 	max-height: 200px;
@@ -178,12 +186,16 @@ p {
 .social-media-marketing img {
 	max-height: 200px;
 }
+*/
 
-.search-engine-optimization h2 {
-	margin-bottom: 20px;
-	font-size: 36px;
+/* Reduced class to ".box h2" and deleted the other ".(class) h2" styles, because they only differed in class name. */
+.box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+/* ------------------remove the following comment section------------------------------ */
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;

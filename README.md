@@ -1,3 +1,17 @@
+The requirements of this project were to take the supplied html and css files and refactor the code to accomplish two things:
+
+1. Bring the site up to current accessibility standards.
+2. Clean up the code.
+
+style.css modifications:
+Some sections of code were completely removed while certain lines were refactored to be more encompassing.
+
+index.html modifications:
+The div tag was used extensively. While visually, this supplied the company with a fine looking product, the site fell short of today's accessibility standards.
+
+index.html & style.css synergistic modifications:
+Many classes, and tags, were renamed to tie the two documents together more efficiently, while reducing the clutter of unnecessary coding.
+
 # 01 HTML CSS Git: Code Refactor
 
 One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
@@ -36,9 +50,10 @@ THEN I find a concise, descriptive title
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+- The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
+---
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
